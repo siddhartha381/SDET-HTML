@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Flight ticket booking form</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>	
+<body>
+<div class="booking-form-box">
+		<div class="radio-btn">
+		<input type="radio" class="btn" name="check"><span>Roundtrip</span>
+		<input type="radio" class="btn" name="check"><span>One Way</span>
+		<input type="radio" class="btn" name="check"><span>Mutli-city</span>
+		</div>
+		
+	<div class="booking-form">
+		<label><font color="white">Flying From</font></label>
+			<input type="text" class="form-control" placholder="city or Airport">
+		<label><font color="white">Flying To</font></label>
+			<input type="text" class="form-control" placholder="city or Airport">
+		<div class="input-grp">
+		<label><font color="white">Departing</font></label>
+			<input type="date" class="form-control select-date">
+		</div>
+		<div class="input-grp">
+		<label><font color="white">Returning</font></label>
+			<input type="date" class="form-control select-date">
+		</div>
+		<div class="input-grp">
+		<label><font color="white">Adults</font></label>
+			<input type="number" class="form-control" value="1">
+		</div>
+		<div class="input-grp">
+		<label><font color="white">Children</font></label>
+			<input type="number" class="form-control" value="0">
+		</div>
+		<div class="input-grp">
+			<label><font color="white">Travel Class</font></label>
+		<select class="custom-select">
+			<option value="1">Economy class</option>
+			<option value="2">Business class</option>
+		</select>
+		</div>
+		<div class="input-grp">
+			<button type="button" class="btn btn-primary flight"> show flights
+		</div>
+		</div>
+		</div>
+</body>
+</html>
